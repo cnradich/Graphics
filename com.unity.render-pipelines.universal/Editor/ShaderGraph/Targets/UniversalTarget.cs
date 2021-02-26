@@ -48,6 +48,7 @@ namespace UnityEditor.Rendering.Universal.ShaderGraph
         public const string kPipelineTag = "UniversalPipeline";
         public const string kLitMaterialTypeTag = "\"UniversalMaterialType\" = \"Lit\"";
         public const string kUnlitMaterialTypeTag = "\"UniversalMaterialType\" = \"Unlit\"";
+        public const string kToonMaterialTypeTag = "\"UniversalMaterialType\" = \"Toon\"";
 
         // SubTarget
         List<SubTarget> m_SubTargets;
