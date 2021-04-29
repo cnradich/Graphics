@@ -22,6 +22,7 @@ namespace UnityEditor.Rendering.HighDefinition.ShaderGraph
             All                     = ~0,
 
             Unlit                   = Lit ^ ShowDoubleSidedNormal, // hide double sided normal for unlit
+            Toon                    = Lit ^ ShowDoubleSidedNormal, // hide double sided normal for unlit
             Lit                     = All,
         }
 

@@ -29,6 +29,8 @@ namespace UnityEditor.Rendering.HighDefinition
             ShadowMatte = 1 << 5,
             /// <summary>Display all the Unlit fields.</summary>
             Unlit = ExposedProperties | ShadowMatte,
+            /// <summary>Display all the Unlit fields.</summary>
+            Toon = ExposedProperties | ShadowMatte,
             /// <summary>Display all the fields.</summary>
             All = ~0,
         }

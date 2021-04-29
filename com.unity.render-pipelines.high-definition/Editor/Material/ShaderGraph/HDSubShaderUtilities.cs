@@ -20,6 +20,7 @@ namespace UnityEditor.Rendering.HighDefinition
     {
         HDLitShader,    // For Lit, LayeredLit, LitTesselation, LayeredLitTesselation
         HDUnlitShader,  // Unlit
+        HDToonShader,  // Unlit
         Opaque,         // Used by Terrain
     }
 

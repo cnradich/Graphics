@@ -62,7 +62,7 @@ Pass
     // The ShaderGraph don't support correctly migration of this node as it serialize all the node data
     // in the json file making it impossible to uprgrade. Until we get a fix, we do a workaround here
     // to still allow us to rename the field and keyword of this node without breaking existing code.
-    #ifdef RAYTRACING_SHADER_GRAPH_DEFAULT 
+    #ifdef RAYTRACING_SHADER_GRAPH_DEFAULT
     #define RAYTRACING_SHADER_GRAPH_HIGH
     #endif
 
